@@ -1,0 +1,84 @@
+/* contate-nos.module.css */
+.contatoContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.contatoContainer h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.contatoContainer p {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.contatoContainer .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contatoContainer .form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #333;
+}
+
+.contatoContainer .form input,
+.contatoContainer .form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contatoContainer button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.contatoContainer button:hover {
+  background-color: #0056b3;
+}
+
+/* --- Estilo do WhatsApp --- */
+.contatoContainer .whatsapp {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contatoContainer .whatsapp p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.contatoContainer .whatsapp a {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.contatoContainer .whatsapp a:hover {
+  background-color: #1ebe5b;
+  transform: scale(1.05);
+}

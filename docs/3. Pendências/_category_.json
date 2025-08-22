@@ -1,0 +1,8 @@
+{
+  "label": "Pendências",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "A página Pendências é o local onde você pode visualizar e gerenciar movimentações e atualizações que ainda aguardam autorização dos responsáveis."
+  }
+}

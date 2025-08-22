@@ -1,0 +1,117 @@
+/**
+ * Estilos globais - Paleta de cores CNBB
+ */
+
+:root {
+  --ifm-color-primary: #007dcc;         /* Azul principal */
+  --ifm-color-primary-dark: #006bb3;    /* Tom mais escuro */
+  --ifm-color-primary-darker: #005a99;  /* Tom ainda mais escuro */
+  --ifm-color-primary-darkest: #004173; /* Azul bem fechado */
+  --ifm-color-primary-light: #1a8fde;   /* Um pouco mais claro */
+  --ifm-color-primary-lighter: #4aa6e6; /* Mais claro ainda */
+  --ifm-color-primary-lightest: #80c3f0;/* Azul bem suave */
+  --ifm-sidebar-background-color: #004173;   /* fundo da sidebar */
+
+  /* Fonte e destaque */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(2, 2, , 0.08);
+
+  /* Cores secundÃ¡rias */
+  --ifm-color-secondary: #007dcc; /* cor do botÃ£o e cor do texto do footer */
+  --ifm-color-tertiary: #d2d2d2;  /* cinza claro */
+}
+
+.button.button--secondary {
+  background-color: #007dcc !important;
+  color: white !important;
+}
+
+.button.button--secondary:hover {
+  background-color: #007dcc !important;
+}
+
+
+.navbar {
+  background-color: #f3f8fc; /* azul CNBB */
+}
+
+/* Fundo da sidebar */
+.theme-doc-sidebar-container {
+  background-color: #fbfcfc; /* fundo azul CNBB */
+}
+
+/* altera o banner do tÃ­tulo */
+.hero.hero--primary {
+  background-color: #f9fbfc;
+  color: #007dcc 
+}
+
+
+.hero__subtitle {
+  white-space: pre-line;
+  color: #1a1a1a /*cinza claro */
+}
+
+.hero {
+  height: 500px; /* ajuste a altura do banner */
+  min-height: 400px; /* garante altura mÃ­nima */
+  display: flex;
+  align-items: center; /* centraliza verticalmente */
+}
+
+
+/* Dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #3399ff;
+  --ifm-color-primary-dark: #2e89e6;
+  --ifm-color-primary-darker: #297acc;
+  --ifm-color-primary-darkest: #1f5c99;
+  --ifm-color-primary-light: #4da6ff;
+  --ifm-color-primary-lighter: #66b3ff;
+  --ifm-color-primary-lightest: #80c1ff;
+  --ifm-sidebar-background-color: #004173; 
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+
+/* custom.css */
+
+/* TÃ­tulos principais */
+h1 {
+  font-size: 2.5rem; /* padrÃ£o Ã© ~2rem */
+  font-weight: bold;
+}
+
+/* SubtÃ­tulos */
+h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+/* SeÃ§Ãµes menores */
+h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/* Linha horizontal que aparece quando vocÃª usa --- no Markdown */
+hr {
+  margin: 1rem 0; /* aumenta ou diminui o espaÃ§o vertical */
+  border: none;
+  border-top: 1px solid var(--ifm-color-primary); /* cor da CNBB */
+  opacity: 0.5; /* deixa mais suave */
+}
+
+:root {
+  --ifm-font-family-base: 'Encode Sans Condensed', Encode;
+}
+
+body {
+  font-family: var(--ifm-font-family-base);
+}
+
+.footer {
+  background-color: #d2d2d2 !important;
+  color: black !important;
+}
