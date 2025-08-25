@@ -76,8 +76,6 @@ const config = {
             position: 'left',
             label: 'Tutoriais',
           },
-          🔹 Alterado para apontar para a nova página de contato
-          { to: '/contato', label: 'Contate-nos', position: 'left' }, 
 
           { href: 'https://forms.office.com/r/FPeGpNUy0k', label: 'Avalie-nos', position: 'left' },
           /* { href: 'https://www.cnbb.org.br/', label: 'CNBB', position: 'left' },
@@ -86,7 +84,8 @@ const config = {
             label: 'Edições CNBB',
             position: 'left',
           }, */
-          
+          🔹 Alterado para apontar para a nova página de contato
+          { to: '/contato', label: 'Contate-nos', position: 'left' }, 
           {
             href: 'https://sistemacdicbr.cnbb.org.br/',
             label: 'Voltar ao Sistema',
