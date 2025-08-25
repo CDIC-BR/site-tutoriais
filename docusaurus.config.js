@@ -76,6 +76,8 @@ const config = {
             position: 'left',
             label: 'Tutoriais',
           },
+          
+          { to: '/contato', label: 'Contate-nos', position: 'left' },
 
           { href: 'https://forms.office.com/r/FPeGpNUy0k', label: 'Avalie-nos', position: 'left' },
 
@@ -88,7 +90,8 @@ const config = {
           }, */
 
            //🔹 Alterado para apontar para a nova página de contato
-          { to: '/contato', label: 'Contate-nos', position: 'left' }, 
+
+           
 
           {
             href: 'https://sistemacdicbr.cnbb.org.br/',
