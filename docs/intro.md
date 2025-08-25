@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Bem-vindo aos Tutoriais do **CDIC-BR**
+# Bem-vindo aos Tutoriais do CDIC-BR
 
 Este espaço foi feito para **guiar você passo a passo** no uso do sistema **CDIC-BR** e de seus principais recursos.  
 Nos tutoriais, reunimos conteúdos organizados para que qualquer pessoa possa aprender de forma **simples, prática e direta**.  

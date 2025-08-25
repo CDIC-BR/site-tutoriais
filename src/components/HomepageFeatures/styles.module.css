@@ -48,3 +48,19 @@
   align-items: center;
   width: 100%;
 }
+
+/* Cor padrão (modo claro) */
+.featuresTitle {
+  color: #000000; /* ou a cor que preferir para o modo claro */
+}
+
+/* Cor no modo escuro */
+[data-theme='dark'] .featuresTitle {
+  color: #000000 !important; /* branco no modo dark */
+   
+}
+
+/* styles.css ou styles.module.css do seu site */
+.docCardItemIcon {
+  display: flex;
+}

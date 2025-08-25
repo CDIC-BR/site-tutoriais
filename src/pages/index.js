@@ -34,10 +34,13 @@ export default function Home() {
     <Layout
       title={` ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      {/* wrapper com classe homepage */}
+      <div className="homepage">
+        <HomepageHeader />
+        <main>
+          <HomepageFeatures />
+        </main>
+      </div>
     </Layout>
   );
 }

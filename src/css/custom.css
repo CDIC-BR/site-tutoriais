@@ -85,10 +85,10 @@
     --ifm-color-primary-darkest: #1f5c99;
     --ifm-color-primary-light: #99ccff;
     --ifm-color-primary-lighter: #b3d6ff;
-    --ifm-color-primary-lightest: #d6eaff;
+    --ifm-color-primary-lightest: #e6ffd6;
 
-    background-color: #1a1a1a; /* cinza bem escuro */
-    color: #f5f5f5;            /* texto ainda mais claro */
+    background-color: rgb(0, 0, 0); /* cinza bem escuro */
+    color: #ffffff;            /* texto ainda mais claro */
   }
 
   /* Navbar e sidebar mais discretos no desktop */
@@ -97,12 +97,12 @@
   }
 
   [data-theme='dark'] .theme-doc-sidebar-container {
-    background-color: #2a2a2a !important;
+    background-color: #202020 !important;
   }
 
   [data-theme='dark'] .footer {
     background-color: #2a2a2a !important;
-    color: #ddd !important;
+    color: #dddddd !important;
   }
 }
 
@@ -149,7 +149,28 @@ body {
   color: black !important;
 }
 
-/* Remove o ícone do DocCard */
-.theme-doc-markdown .DocCard svg {
-  display: none;
+/* Só afeta homepage quando estiver no modo dark */
+[data-theme='dark'] .homepage {
+  background-color: #ffffff; /* fundo dark só da home */
+  color: #000000;
+}
+
+/* Se quiser refinar */
+[data-theme='dark'] .homepage h1 {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .homepage p {
+  color: #6d6969;
+}
+
+
+[data-theme='dark'] .hero.hero--primary {
+  background-color: #000000;
+  color: #007dcc 
+}
+
+/* Remove todos os ícones da sidebar */
+.menu__list-item-icon {
+  display: none !important;
 }
