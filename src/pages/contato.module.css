@@ -3,18 +3,22 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: var(--ifm-font-family-base);
 }
 
 .contatoContainer h1 {
   text-align: center;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: var(--ifm-color-primary-darkest);
+  font-size: 2rem; /* alinhado com títulos principais */
+  font-weight: bold;
 }
 
 .contatoContainer p {
   text-align: center;
   margin-bottom: 1rem;
-  color: #555;
+  color: #444; /* cinza padrão usado em subtítulos */
+  font-size: 1rem;
 }
 
 .contatoContainer .form {
@@ -27,31 +31,34 @@
 .contatoContainer .form label {
   display: flex;
   flex-direction: column;
-  font-weight: bold;
+  font-weight: 500;
   color: #333;
+  font-size: 1rem;
 }
 
 .contatoContainer .form input,
 .contatoContainer .form textarea {
   padding: 0.6rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--ifm-color-tertiary);
   border-radius: 6px;
   font-size: 1rem;
+  font-family: var(--ifm-font-family-base);
 }
 
 .contatoContainer button {
-  background-color: #007bff;
+  background-color: var(--ifm-color-primary);
   color: white;
   padding: 0.8rem;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 1rem;
+  font-weight: bold;
   transition: background 0.3s;
 }
 
 .contatoContainer button:hover {
-  background-color: #0056b3;
+  background-color: var(--ifm-color-primary-dark);
 }
 
 /* --- Estilo do WhatsApp --- */
@@ -63,7 +70,8 @@
 .contatoContainer .whatsapp p {
   margin-bottom: 0.5rem;
   font-weight: bold;
-  color: #444;
+  color: var(--ifm-color-primary-darkest);
+  font-size: 1.1rem;
 }
 
 .contatoContainer .whatsapp a {
@@ -74,7 +82,8 @@
   border-radius: 8px;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-family: var(--ifm-font-family-base);
   transition: background 0.3s, transform 0.2s;
 }
 

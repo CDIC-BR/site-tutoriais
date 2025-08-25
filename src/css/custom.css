@@ -16,8 +16,8 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(2, 2, , 0.08);
 
-  /* Cores secundÃ¡rias */
-  --ifm-color-secondary: #007dcc; /* cor do botÃ£o e cor do texto do footer */
+  /* Cores secundárias */
+  --ifm-color-secondary: #007dcc; /* cor do botão e cor do texto do footer */
   --ifm-color-tertiary: #d2d2d2;  /* cinza claro */
 }
 
@@ -30,7 +30,6 @@
   background-color: #007dcc !important;
 }
 
-
 .navbar {
   background-color: #f3f8fc; /* azul CNBB */
 }
@@ -40,12 +39,11 @@
   background-color: #fbfcfc; /* fundo azul CNBB */
 }
 
-/* altera o banner do tÃ­tulo */
+/* altera o banner do título */
 .hero.hero--primary {
   background-color: #f9fbfc;
   color: #007dcc 
 }
-
 
 .hero__subtitle {
   white-space: pre-line;
@@ -54,13 +52,14 @@
 
 .hero {
   height: 500px; /* ajuste a altura do banner */
-  min-height: 400px; /* garante altura mÃ­nima */
+  min-height: 400px; /* garante altura mínima */
   display: flex;
   align-items: center; /* centraliza verticalmente */
 }
 
+/* ================== DARK MODE ================== */
 
-/* Dark mode */
+/* Dark mode padrão (mantém para MOBILE) */
 [data-theme='dark'] {
   --ifm-color-primary: #3399ff;
   --ifm-color-primary-dark: #2e89e6;
@@ -72,32 +71,66 @@
   --ifm-sidebar-background-color: #004173; 
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  background-color: #121212; /* fundo escuro */
+  color: #eaeaea;            /* texto claro */
 }
 
+/* Dark mode específico para DESKTOP */
+@media (min-width: 768px) {
+  [data-theme='dark'] {
+    --ifm-color-primary: #80c1ff; /* azul mais suave */
+    --ifm-color-primary-dark: #4da6ff;
+    --ifm-color-primary-darker: #3399ff;
+    --ifm-color-primary-darkest: #1f5c99;
+    --ifm-color-primary-light: #99ccff;
+    --ifm-color-primary-lighter: #b3d6ff;
+    --ifm-color-primary-lightest: #d6eaff;
+
+    background-color: #1a1a1a; /* cinza bem escuro */
+    color: #f5f5f5;            /* texto ainda mais claro */
+  }
+
+  /* Navbar e sidebar mais discretos no desktop */
+  [data-theme='dark'] .navbar {
+    background-color: #222 !important;
+  }
+
+  [data-theme='dark'] .theme-doc-sidebar-container {
+    background-color: #2a2a2a !important;
+  }
+
+  [data-theme='dark'] .footer {
+    background-color: #2a2a2a !important;
+    color: #ddd !important;
+  }
+}
+
+/* =============================================== */
 
 /* custom.css */
 
-/* TÃ­tulos principais */
+/* Títulos principais */
 h1 {
-  font-size: 2.5rem; /* padrÃ£o Ã© ~2rem */
+  font-size: 2.5rem; /* padrão é ~2rem */
   font-weight: bold;
 }
 
-/* SubtÃ­tulos */
+/* Subtítulos */
 h2 {
   font-size: 1.7rem;
   font-weight: 500;
 }
 
-/* SeÃ§Ãµes menores */
+/* Seções menores */
 h3 {
   font-size: 1.3rem;
   font-weight: 300;
 }
 
-/* Linha horizontal que aparece quando vocÃª usa --- no Markdown */
+/* Linha horizontal que aparece quando você usa --- no Markdown */
 hr {
-  margin: 1rem 0; /* aumenta ou diminui o espaÃ§o vertical */
+  margin: 1rem 0; /* aumenta ou diminui o espaço vertical */
   border: none;
   border-top: 1px solid var(--ifm-color-primary); /* cor da CNBB */
   opacity: 0.5; /* deixa mais suave */

@@ -76,20 +76,22 @@ const config = {
             position: 'left',
             label: 'Tutoriais',
           },
-          { href: 'https://www.cnbb.org.br/', label: 'CNBB', position: 'left' },
+
+          { href: 'https://forms.office.com/r/FPeGpNUy0k', label: 'Avalie-nos', position: 'left' },
+          /* { href: 'https://www.cnbb.org.br/', label: 'CNBB', position: 'left' },
           {
             href: 'https://www.edicoescnbb.com.br/',
             label: 'Edições CNBB',
             position: 'left',
           },
           // 🔹 Alterado para apontar para a nova página de contato
-          { to: '/contato', label: 'Contate-nos', position: 'left' },
+          { to: '/contato', label: 'Contate-nos', position: 'left' }, */
           {
             href: 'https://sistemacdicbr.cnbb.org.br/',
-            label: 'Sistema CDIC-BR',
+            label: 'Voltar ao Sistema',
             position: 'right',
           },
-          { href: 'https://forms.office.com/r/FPeGpNUy0k', label: 'Avalie-nos', position: 'left' },
+          
         ],
       },
       footer: {
