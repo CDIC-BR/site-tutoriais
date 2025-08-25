@@ -2,35 +2,45 @@
 sidebar_position: 1
 ---
 
-# Bem-vindo aos Tutoriais
+# Bem-vindo aos Tutoriais do **CDIC-BR**
 
-Este espaço foi criado para **guiar você passo a passo** no aprendizado e no uso das ferramentas e recursos disponíveis.  
-Aqui, reunimos conteúdos organizados para que qualquer pessoa — do iniciante ao avançado — possa aprender de forma **simples, prática e direta**.  
-
----
-
-## O que você vai encontrar?
-
-- **Introduções práticas** para entender rapidamente cada tema.  
-- **Exemplos ilustrados** que facilitam a compreensão.  
-- **Explicações detalhadas** para aprofundar quando necessário.  
-- **Links e referências úteis** para expandir seu conhecimento.  
+Este espaço foi feito para **guiar você passo a passo** no uso do sistema **CDIC-BR** e de seus principais recursos.  
+Nos tutoriais, reunimos conteúdos organizados para que qualquer pessoa possa aprender de forma **simples, prática e direta**.  
 
 ---
 
-## Como usar este guia?
+## O que você vai encontrar por aqui?
 
-1. Navegue pelo menu lateral e escolha o tópico desejado.  
-2. Leia os tutoriais no seu ritmo — cada página é independente, mas também faz parte de uma jornada contínua.  
-3. Use os botões **"Anterior"** e **"Próximo"** no fim das páginas para seguir a ordem sugerida.  
+- **Apresentações práticas** que mostram rapidamente cada recurso do CDIC-BR.  
+- **Exemplos explicados**, facilitando a compreensão do funcionamento do sistema.  
+- **Explicações detalhadas** para quem deseja se aprofundar sobre o sistema, funções e terminologias específicas da igreja.  
+- **Links e referências úteis** que complementam o aprendizado.  
+
+---
+
+## Como navegar pelos tutoriais?
+
+- Use a **barra lateral** à esquerda para escolher o tema que deseja aprender.  
+- No fim de cada página, você encontrará os botões **“Anterior”** e **“Próximo”**, que ajudam a seguir a ordem sugerida de estudo.  
+- Cada tutorial pode ser lido de forma independente, mas juntos formam uma **jornada contínua de aprendizado**.  
 
 ---
 
 ## Nosso objetivo
 
-Queremos que você se sinta **seguro e confiante** ao explorar novos conhecimentos.  
-Cada tutorial foi feito para ser claro, acessível e útil, sempre com foco em **facilitar sua prática diária**.  
+Queremos que você se sinta **seguro e confiante** ao utilizar o CDIC-BR.  
+Cada tutorial foi preparado para ser **claro, acessível e útil**, sempre com foco em **facilitar sua prática diária** dentro do sistema.  
 
 ---
 
- Boa leitura e bons estudos!  
+## Dica importante!  
+
+Na **barra superior**, você também pode:  
+- Voltar rapidamente para o **sistema CDIC-BR**.  
+- Acessar o link para **nos contatar**.  
+- **Nos avaliar** e deixar seu feedback.  
+- Alterar o **modo de iluminação** da página (claro ou escuro).  
+
+---
+
+Boa leitura e bons estudos com o CDIC-BR 🚀
