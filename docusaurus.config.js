@@ -82,8 +82,8 @@ const config = {
           {
             href: 'https://www.edicoescnbb.com.br/',
             label: 'Edições CNBB',
-            position: 'left',
-          }, */
+            position: 'left', */
+          }, 
           🔹 Alterado para apontar para a nova página de contato
           { to: '/contato', label: 'Contate-nos', position: 'left' }, 
           {
