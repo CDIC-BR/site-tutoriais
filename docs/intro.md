@@ -1,9 +1,11 @@
 ---
 sidebar_position: 1
 ---
----
 
-# Bem-vindo aos Tutoriais do CDIC-BR
+# Bem-vindo 
+## Este é o repositório aos Tutoriais do Sistema CDIC-BR
+
+Caro(a) Chanceler,
 
 Este espaço foi feito para **guiar você** passo a passo no uso do **Sistema CDIC-BR** e de seus principais recursos.  
 Nos tutoriais, reunimos conteúdos organizados para que você tenha orientações simples, práticas e diretas.  
@@ -29,23 +31,15 @@ Comece seu acesso pelas seções já mapeadas.
 - No fim de cada página, você encontrará os botões **“Anterior”** e **“Próximo”**, que ajudam a seguir a ordem sugerida de estudo.  
 - Cada tutorial pode ser lido de forma independente, mas juntos formam uma **jornada contínua de aprendizado**.  
 
----
 
-## Nosso objetivo
+**Queremos te ouvir!**
 
-Queremos que você se sinta **seguro e confiante** ao utilizar o CDIC-BR.  
-Cada tutorial foi preparado para ser **claro, acessível e útil**, sempre com foco em **facilitar sua prática diária** dentro do sistema.  
+💭 Sentiu falta de alguma funcionalidade? Gostaria de sugerir algo para o Sistema? Utilize nosso canal de **[avaliação.](https://forms.office.com/pages/responsepage.aspx?id=BlpvaF6EX0etkdW9PG9jwUzSqlQRE8RDlHjlIt1uXbBUQTJWOVM3SEFXVFc5OTU0U0lUVldIUTcxMC4u&route=shorturl)**
 
 ---
 
-## Dica importante!  
 
-Na **barra superior**, você também pode:  
-- Voltar rapidamente para o **sistema CDIC-BR**.  
-- Acessar o link para **nos contatar**.  
-- **Nos avaliar** e deixar seu feedback.  
-- Alterar o **modo de iluminação** da página (claro ou escuro).  
-
----
-
-Boa leitura e bons estudos com o CDIC-BR 🚀
+> 💡 **Dúvidas?** Entre em contato conosco: \
+> Whatsapp: (61) 2193-3075 \
+> E-mail: cdic-br@cnbb.org.br
+> Se preferir use o formulário: **[Contate-nos](https://cdic-br.github.io/site-tutoriais/contato)**
