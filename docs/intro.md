@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Bem-vindo
 ---
 
 # Bem-vindo aos Tutoriais do CDIC-BR
