@@ -16,14 +16,11 @@ Esperamos que você interaja com facilidade e tenha a sua disposição conteúdo
 
 A paz do senhor!🕊️
 
---- 
-> <span style={{color: "red" }}> Atenção!
-Os tutoriais com o 🔒 ainda estão em construção.
-Comece seu acesso pelas seções já mapeadas.
-
-</span>
 ---
 
+> 💬 <span style={{ color: "red" }}>Atenção! Os tutoriais com o 🔒 ainda estão em construção. Comece seu acesso pelas seções já mapeadas.</span>
+
+---
 
 ## Como navegar pelos tutoriais?
 
@@ -31,15 +28,13 @@ Comece seu acesso pelas seções já mapeadas.
 - No fim de cada página, você encontrará os botões **“Anterior”** e **“Próximo”**, que ajudam a seguir a ordem sugerida de estudo.  
 - Cada tutorial pode ser lido de forma independente, mas juntos formam uma **jornada contínua de aprendizado**.  
 
-
 **Queremos te ouvir!**
 
-💭 Sentiu falta de alguma funcionalidade? Gostaria de sugerir algo para o Sistema? Utilize nosso canal de **[avaliação.](https://forms.office.com/pages/responsepage.aspx?id=BlpvaF6EX0etkdW9PG9jwUzSqlQRE8RDlHjlIt1uXbBUQTJWOVM3SEFXVFc5OTU0U0lUVldIUTcxMC4u&route=shorturl)**
+💭 Sentiu falta de alguma funcionalidade? Gostaria de sugerir algo para o Sistema? Utilize nosso canal de **[avaliação](https://forms.office.com/pages/responsepage.aspx?id=BlpvaF6EX0etkdW9PG9jwUzSqlQRE8RDlHjlIt1uXbBUQTJWOVM3SEFXVFc5OTU0U0lUVldIUTcxMC4u&route=shorturl)**.
 
 ---
 
-
-> 💡 **Dúvidas?** Entre em contato conosco: \
-> Whatsapp: (61) 2193-3075 \
-> E-mail: cdic-br@cnbb.org.br
+> 💡 **Dúvidas?** Entre em contato conosco:  
+> Whatsapp: (61) 2193-3075  
+> E-mail: cdic-br@cnbb.org.br  
 > Se preferir use o formulário: **[Contate-nos](https://cdic-br.github.io/site-tutoriais/contato)**
