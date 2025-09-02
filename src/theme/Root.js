@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import GateOverlay from '../components/GateOverlay';
 
 export default function Root({ children }) {
+  const [tokenOk, setTokenOk] = useState(false);
   const [checked, setChecked] = useState(false);
 
   useEffect(() => {
+    // só roda no cliente, nunca no build
     const params = new URLSearchParams(window.location.search);
     const token = params.get('token');
 
@@ -12,16 +14,15 @@ export default function Root({ children }) {
       localStorage.setItem('cdic_token_ok', '1');
     }
 
-    setChecked(true); // sinaliza que a verificação acabou
+    const ok = localStorage.getItem('cdic_token_ok') === '1';
+    setTokenOk(ok);
+    setChecked(true);
   }, []);
 
-  const tokenOk = localStorage.getItem('cdic_token_ok') === '1';
-
-  // Se a verificação ainda não terminou, bloqueia tudo
+  // enquanto não verifica, mostra overlay
   if (!checked || !tokenOk) {
     return <GateOverlay />;
   }
 
-  // Se liberado, renderiza normalmente
   return <>{children}</>;
 }
