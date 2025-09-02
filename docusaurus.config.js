@@ -61,13 +61,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-scripts: [
+      
+      scripts: [
   {
-    src: '/token-guard.js',
+    src: '/token-overlay.js',
     async: true,
   },
 ],
-
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
