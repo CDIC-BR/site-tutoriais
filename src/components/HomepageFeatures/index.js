@@ -68,8 +68,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'CDIC-BR',
-    subtitle: '*nome e logo provisório',
+    title: 'CDIC-BR *nome e logo provisório',
     Svg: require('@site/static/img/t5.svg').default,
     to: 'https://sistemacdicbr.cnbb.org.br/',
     description: (
