@@ -5,7 +5,7 @@ sidebar_position: 1
 # Bem-vindo 
 ## Este é o repositório aos Tutoriais do Sistema CDIC-BR
 
-Caro(a) Chanceler,
+Caros(as) Chanceleres,
 
 Este espaço foi feito para **guiar você** passo a passo no uso do **Sistema CDIC-BR** e de seus principais recursos.  
 Nos tutoriais, reunimos conteúdos organizados para que você tenha orientações simples, práticas e diretas.  
@@ -14,7 +14,7 @@ Queremos que você se sinta seguro e confiante ao utilizar o CDIC-BR.
 
 Esperamos que você interaja com facilidade e tenha a sua disposição conteúdos úteis para o seu dia a dia e de toda a chancelaria.
 
-A paz do senhor!🕊️
+A paz de Cristo!🕊️
 
 ---
 
