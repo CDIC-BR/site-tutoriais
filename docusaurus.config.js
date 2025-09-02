@@ -68,7 +68,7 @@ const config = {
     if(!ok){
       var token = params.get('token');
       // === ALTERE AQUI O TOKEN PARA O VALOR QUE O SISTEMA CDIC VAI ENVIAR ===
-      if(token === 'SEGREDO123'){
+      if(token === 'CDIC2025'){
         localStorage.setItem('cdic_token_ok','1');
         ok = true;
         if(history.replaceState){
