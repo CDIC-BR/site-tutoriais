@@ -137,7 +137,7 @@ hr {
 }
 
 :root {
-  --ifm-font-family-base: 'Encode Sans Condensed', Encode;
+  --ifm-font-family-base: 'Encode Sans Condensed', sans-serif;
 }
 
 body {
