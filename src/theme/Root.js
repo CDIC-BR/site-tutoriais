@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useLayoutEffect } from 'react';
 import GateOverlay from '../components/GateOverlay';
 
 export default function Root({ children }) {
-  const [tokenOk, setTokenOk] = useState(false);
-  const [checked, setChecked] = useState(false);
+  const [tokenOk, setTokenOk] = useState(null); // null = ainda não verificado
 
-  useEffect(() => {
-    // só roda no cliente, nunca no build
+  useLayoutEffect(() => {
+    // só roda no cliente
     const params = new URLSearchParams(window.location.search);
     const token = params.get('token');
 
@@ -14,13 +13,10 @@ export default function Root({ children }) {
       localStorage.setItem('cdic_token_ok', '1');
     }
 
-    const ok = localStorage.getItem('cdic_token_ok') === '1';
-    setTokenOk(ok);
-    setChecked(true);
+    setTokenOk(localStorage.getItem('cdic_token_ok') === '1');
   }, []);
 
-  // enquanto não verifica, mostra overlay
-  if (!checked || !tokenOk) {
+  if (tokenOk === null || tokenOk === false) {
     return <GateOverlay />;
   }
 
