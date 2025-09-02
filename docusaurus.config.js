@@ -42,57 +42,6 @@ const config = {
     locales: ['pt-br'],
   },
 
-  // -----------------------------------------------------------------------
-  // Plugin que injeta um "gate" simples no <head> para ocultar o site
-  // a menos que haja o token correto na query string.
-  // -----------------------------------------------------------------------
-  plugins: [
-    function gatePlugin() {
-      return {
-        name: 'gate-plugin',
-        injectHtmlTags() {
-          return {
-            headTags: [
-              // 1) Esconde o body antes de qualquer renderização
-              {
-                tagName: 'style',
-                innerHTML: 'html:not(.token-ok) body{display:none!important;}',
-              },
-              // 2) Script precoce que valida token e libera o body
-              {
-                tagName: 'script',
-                innerHTML: `(function(){
-  try{
-    var params = new URLSearchParams(location.search);
-    var ok = localStorage.getItem('cdic_token_ok') === '1';
-    if(!ok){
-      var token = params.get('token');
-      // === ALTERE AQUI O TOKEN PARA O VALOR QUE O SISTEMA CDIC VAI ENVIAR ===
-      if(token === 'CDIC2025'){
-        localStorage.setItem('cdic_token_ok','1');
-        ok = true;
-        if(history.replaceState){
-          history.replaceState({}, document.title, location.pathname + location.hash);
-        }
-      }
-    }
-    if(ok){
-      // libera o body
-      document.documentElement.classList.add('token-ok');
-    }else{
-      // mostra a tela de bloqueio antes que qualquer conteúdo seja renderizado
-      document.write('<div style="display:flex;justify-content:center;align-items:center;height:100vh;font-family:sans-serif;text-align:center"><div><h1>Acesso não autorizado 🚫</h1><p>Você precisa acessar pelo sistema CDIC.</p></div></div>');
-    }
-  }catch(e){}
-})();`,
-              },
-            ],
-          };
-        },
-      };
-    },
-  ],
-
   presets: [
     [
       'classic',
