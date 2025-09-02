@@ -61,6 +61,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -80,18 +81,6 @@ const config = {
           { to: '/contato', label: 'Contate-nos', position: 'left' },
 
           { href: 'https://forms.office.com/r/FPeGpNUy0k', label: 'Avalie-nos', position: 'left' },
-
-        /*  { href: 'https://www.cnbb.org.br/', label: 'CNBB', position: 'left' },
-
-          {
-            href: 'https://www.edicoescnbb.com.br/',
-            label: 'Edições CNBB',
-            position: 'left',
-          }, */
-
-           //🔹 Alterado para apontar para a nova página de contato
-
-           
 
           {
             href: 'https://sistemacdicbr.cnbb.org.br/',
